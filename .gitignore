@@ -11,3 +11,5 @@ artifacts/
 next-env.d.ts
 .playwright-cli/
 output/playwright/
+
+.vercel
