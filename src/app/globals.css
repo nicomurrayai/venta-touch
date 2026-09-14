@@ -238,10 +238,8 @@ h2 span { color: #9c9c95; }
 .footer-contact a > svg:last-child { margin-left: 20px; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding-top: 24px; border-top: 1px solid var(--line); font-size: 9px; color: #95958b; }
 .footer-bottom a { display: flex; gap: 11px; align-items: center; padding: 8px 0; }
-.floating-whatsapp { position: fixed; right: 25px; bottom: max(23px, env(safe-area-inset-bottom)); z-index: 50; display: flex; justify-content: center; align-items: center; width: 58px; height: 58px; color: #fff; background: #176e40; border: 1px solid #589773; border-radius: 50%; box-shadow: 0 4px 24px #0005; transition: background .2s, transform .2s; }
+.floating-whatsapp { position: fixed; right: 25px; bottom: max(23px, env(safe-area-inset-bottom)); z-index: 50; display: inline-flex; align-items: center; gap: 9px; padding: 15px 18px; color: #fff; background: #25d366; border: 1px solid #5fe08c; border-radius: 5px; box-shadow: 0 4px 24px #0005; font-size: 11px; font-weight: 800; transition: background .2s, transform .2s; }
 .floating-whatsapp:hover { background: #1d834d; transform: translateY(-2px); }
-.floating-label { position: absolute; right: 71px; white-space: nowrap; background: #22221f; color: #eeeee6; padding: 11px 15px; border-radius: 5px; font-size: 11px; border: 1px solid #44443c; opacity: 0; visibility: hidden; transition: opacity .2s; }
-.floating-whatsapp:hover .floating-label, .floating-whatsapp:focus-visible .floating-label { visibility: visible; opacity: 1; }
 [data-reveal] { transition: opacity .6s ease, transform .6s ease; }
 .reveal-pending { opacity: 0; transform: translateY(18px); }
 .reveal-pending:focus-within { opacity: 1; transform: none; }
@@ -479,8 +477,7 @@ h2 span { color: #9c9c95; }
   .footer-bottom { align-items: start; gap: 22px; font-size: 8px; }
   .footer-bottom > p { max-width: 190px; line-height: 1.9; }
   .footer-bottom a { padding-top: 0; white-space: nowrap; }
-  .floating-whatsapp { width: 53px; height: 53px; right: 16px; bottom: max(17px, env(safe-area-inset-bottom)); }
-  .floating-label { display: none; }
+  .floating-whatsapp { right: 16px; bottom: max(17px, env(safe-area-inset-bottom)); }
 }
 @media (max-width: 374px) {
   .hero h1 { font-size: 55px; }

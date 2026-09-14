@@ -11,7 +11,7 @@ export function WhatsAppCTA({ children, variant = "primary", className = "", loc
 }
 
 export function FloatingWhatsApp() {
-  return <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="floating-whatsapp" aria-label="Consultar por WhatsApp (abre una nueva pestaña)" data-cta="floating"><span className="floating-label">Hablemos de tu negocio</span><WhatsAppIcon size={29}/></a>;
+  return <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="floating-whatsapp" aria-label="Contactanos por WhatsApp (abre una nueva pestaña)" data-cta="floating"><WhatsAppIcon size={24}/><span>Contactanos</span></a>;
 }
 
 export function SectionLabel({ children, light = false }: { children: React.ReactNode; light?: boolean }) {
