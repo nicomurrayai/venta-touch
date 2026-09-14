@@ -37,7 +37,7 @@ img { display: block; max-width: 100%; height: auto; }
 .button { display: inline-flex; justify-content: center; align-items: center; gap: 24px; padding: 19px 24px; min-height: 54px; font-size: 12px; line-height: 1.4; font-weight: 800; border: 1px solid transparent; border-radius: 5px; transition: background .2s, border-color .2s, transform .2s; }
 .button svg { transition: transform .2s; }
 .button:hover svg { transform: translate(2px, -2px); }
-.button-primary { background: var(--orange); color: #14110e; border-color: var(--orange); }
+.button-primary { background: var(--orange); color: #fff; border-color: var(--orange); }
 .button-primary:hover { background: #ff8538; border-color: #ff8538; }
 .button-outline { border-color: #484845; background: transparent; color: var(--text); }
 .button-outline:hover { background: #ffffff08; border-color: var(--orange); }
@@ -63,13 +63,6 @@ img { display: block; max-width: 100%; height: auto; }
 .hero-kiosk { width: 100%; height: 100%; object-fit: contain; position: relative; mix-blend-mode: lighten; mask-image: linear-gradient(to bottom, transparent, black 4%, black 92%, transparent); }
 .hero-orbit { position: absolute; width: 430px; height: 430px; top: 130px; left: 42px; border: 1px solid #ff680a16; border-radius: 50%; box-shadow: 0 0 0 52px #ff680a03, 0 0 0 53px #ff680a08; }
 .visual-index { position: absolute; right: 4px; top: 28px; font-size: 8px; color: #91918b; letter-spacing: 2px; writing-mode: vertical-rl; }
-.product-callout { position: absolute; display: flex; align-items: center; gap: 11px; border: 1px solid #ffffff1b; border-radius: 6px; padding: 14px 17px; background: #1a1a19f5; box-shadow: 0 8px 35px #0003; }
-.callout-top { right: -3px; top: 38%; }
-.callout-bottom { left: 2px; bottom: 17%; }
-.callout-icon { display: grid; place-items: center; color: var(--orange); width: 33px; height: 35px; border: 1px solid #ff680a25; border-radius: 4px; background: #ff680a08; }
-.product-callout > span:last-child { font-size: 7px; color: #a3a39b; letter-spacing: .8px; }
-.product-callout strong { display: block; color: #e8e8e2; font-size: 11px; letter-spacing: 0; margin-top: 5px; font-weight: 600; }
-.hero-visual figcaption { position: absolute; bottom: 8px; right: 10px; color: #92928c; font-size: 8px; }
 .hero-bottom { height: 69px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #ffffff12; color: #999993; font-size: 8px; letter-spacing: 1.4px; }
 .hero-bottom a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); color: #d0d0c8; }
 .capabilities-strip { border-block: 1px solid var(--line); background: #191919; }

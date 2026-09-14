@@ -11,7 +11,7 @@ export const content = {
   hero: {
     eyebrow: "AUTOSERVICIO QUE IMPULSA TU NEGOCIO",
     description: "Tótems de autoservicio con hardware, software, pagos e instalación para automatizar pedidos y ventas en tu negocio.",
-    cta: "Quiero cotizar un tótem",
+    cta: "Quiero automatizar mis ventas",
   },
   solution: [
     { number: "01", icon: "monitor", title: "El equipo", description: "Tecnología que se hace parte de tu local.", items: ["Tótem y pantalla táctil", "Integración con medios de pago", "Impresión de tickets o comandas"] },
