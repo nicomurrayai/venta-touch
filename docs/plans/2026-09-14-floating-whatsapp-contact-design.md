@@ -6,8 +6,10 @@ Make the persistent WhatsApp access immediately understandable as a contact acti
 
 ## Approved design
 
-- Replace the circular floating control with a compact green button.
-- Display the existing WhatsApp logo followed by `Contactanos`.
+- Use a compact white pill with a subtle neutral border and soft shadow.
+- Display the supplied WhatsApp PNG followed by `Contactanos`.
+- Keep the control 48px tall with a 28px icon and restrained spacing.
+- Add subtle hover, keyboard-focus and pressed states without an entrance animation.
 - Preserve the existing WhatsApp destination, new-tab behavior, and accessible label.
 
 ## Verification
